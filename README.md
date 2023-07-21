@@ -29,6 +29,6 @@ Python: The primary programming language used for building the application.
 Try It Out!
 I welcome you to check out this Streamlit OCR app and experience the seamless text extraction and other additional features it offers. Feel free to provide feedback, suggestions, and bug reports to help me improve the app and make it more useful for everyone.
 
-Link to the GitHub repository: https://image2text-sl3vxn6fdh.streamlit.app/
+Link : https://image2text-sl3vxn6fdh.streamlit.app/
 
 Thank you for your time, and happy text extraction with Streamlit OCR App! 🚀
