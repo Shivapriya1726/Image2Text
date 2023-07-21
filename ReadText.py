@@ -23,7 +23,7 @@ class ReadText:
         date_pattern_upper = text.upper()
         n_boxes = len(d['text'])
         for i in range(n_boxes):
-            if float(d['conf'][i]) > 60:
+            if float(d['conf'][i.lower()]) > 60:
                 if re.match(date_pattern_lower, d['text'][i]) or re.match(date_pattern_upper, d['text'][i]) or re.match(
                         date_pattern, d['text'][i]):
                     (x, y, w, h) = (d['left'][i], d['top'][i], d['width'][i], d['height'][i])
