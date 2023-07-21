@@ -56,3 +56,4 @@ validators==0.20.0
 virtualenv==20.23.1
 watchdog==3.0.0
 zipp==3.16.2
+opencv-python-headless
