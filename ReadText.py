@@ -15,7 +15,7 @@ class ReadText:
         return text
 
 
- def find(self, text):
+    def find(self, text):
         d = pytesseract.image_to_data(self.img, output_type=Output.DICT)
         # keys = list(d.keys())
         date_pattern = text.lower()  # Convert the input 'text' to lowercase
